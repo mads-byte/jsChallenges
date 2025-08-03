@@ -1,18 +1,18 @@
 "use strict";
 
 class Person {
-    cosntructor(name, job, age) {
+    constructor(name, job, age) {
         this.name = name;
         this.job = job;
         this.age = age;
     }
+
     exercise() {
-        console.log(`I run every day for my health`);
+        console.log("I walk 10,000 steps a day!")
     }
+};
+const person3 = new Person("Jack", "Web Dev", "29");
 
-}
 
-const person1 = new Person("Harold", "Backend Engineer", 20);
-
-console.log(person1.name);
+person3.exercise();
 
